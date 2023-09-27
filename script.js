@@ -17,7 +17,8 @@ const getSum = () => {
 	lastrow.appendChild(newcell);
 	table.appendChild(lastrow);
 	newcell.textContent = total;
-	newcell.id = "ans";
+	newcell.id = "ans"; 
+	newcell.className = "ans";
 };
 
 getSumBtn.addEventListener("click", getSum);
